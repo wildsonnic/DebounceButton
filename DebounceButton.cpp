@@ -1,7 +1,5 @@
 
-
 #include "DebounceButton.h"
-
 
 DebounceButton::DebounceButton(uint8_t _buttonPin, uint16_t _debounceTime){
 	//if using MEGA:
@@ -101,8 +99,3 @@ bool DebounceButton::Switch(bool _initialState){
 		return switchButtonState;
 	}
 }
-
-
-
-
-
