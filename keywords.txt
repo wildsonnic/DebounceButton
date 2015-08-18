@@ -1,0 +1,22 @@
+###################################
+# Syntax Coloring Map For DebounceButton
+###################################
+
+###################################
+# Datatypes (KEYWORD1)
+###################################
+
+DebounceButton	KEYWORD1
+
+###################################
+# Methods and Functions (KEYWORD2)
+###################################
+
+Latch	KEYWORD2
+Switch	KEYWORD2
+
+###################################
+# Constants (LITERAL1)
+ON	LITERAL1
+OFF	LITERAL1
+###################################
