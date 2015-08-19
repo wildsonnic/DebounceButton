@@ -22,7 +22,7 @@ DebounceButton::DebounceButton(uint8_t _buttonPin, uint16_t _debounceTime){
 
 
 bool DebounceButton::Latch(){
-	// read the state of the switch into a local variable:
+	// read the state of the button:
 	bool reading = digitalRead(buttonPin);
 	if(reading != latchLastButtonState)
 		if(reading)	//to avoid the waiting for second push.
@@ -66,7 +66,7 @@ bool DebounceButton::Latch(const bool _initialState){
 
 
 bool DebounceButton::Switch(){
-	// read the state of the switch into a local variable:
+	// read the state of the button:
 	bool reading = digitalRead(buttonPin);
 
 	if(reading != switchLastButtonState){
